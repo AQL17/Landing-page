@@ -37,15 +37,15 @@ header{
 }
 .intro{
 	background-color: #1F2937;
-
-	padding: 50px;
+	padding: 100px;
     display: flex;
     justify-content: space-around;
-
+    margin-bottom: 25px;
 }
 
 .intro p{
 	color: #F9FAF8;
+	font-size: 18px;
 }
 .intro img{
 	height: 200px;
@@ -68,15 +68,16 @@ h2{
   padding: 0;
   font-size: 48px;
   color: #F9FAF8;
-  font-weight: bold;
+  font-weight: bolder;
 
 }
 
 .info{
+	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 50px;
+	gap: 75px;
 }
 
 h3{
@@ -93,13 +94,59 @@ h3{
 
 }
 .text{
-	max-width: 250px;
+	max-width: 200px;
+	text-align: center;
 }
 
 .quote{
+	margin-top: 100px;
+	background-color: #E5E7EB;
+	padding: 70px;
+	color: #1F2937;
+}
+.quotertext{
+	text-align: right;
+	font-size: 30px;
+	font-weight: 200;
+}
+.quotext{
+   font-style: italic;
+   font-size: 40px;
+}
 
+.signup{
+	margin: 100px;
+	background-color: #3882F6;
+	padding: 50px;
+	border-radius: 10px;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+.headtext{
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	font-weight: bold;
+}
+.smalltext{
+	margin: 0;
+	padding: 0;
+	font-weight: 200;
+}
+.signup button{
+	background-color: #3882F6;
+	padding-left: 40px;
+	padding-right: 40px;
+	border: 2px solid white;
+	border-radius: 10px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+  
 }
 .footer{
+ padding: 25px;
  text-align: center;
  background-color : #1F2937;
  color: white;
